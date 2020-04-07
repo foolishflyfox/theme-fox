@@ -904,4 +904,8 @@ main {
 .friend article {
   margin-bottom: 30px; }
 
+.highlight pre{
+  font-family: Menlo, Monaco, Consolas, Microsoft Jhenghei, Hiragino Sans GB, Microsoft YaHei;
+}
+
 /*# sourceMappingURL=index.css.map */
