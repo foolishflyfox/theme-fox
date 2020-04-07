@@ -447,13 +447,13 @@ main {
     .site-footer {
       padding: 30px 50px 30px; } }
   .site-footer a {
-    color: #EEEEEE;
+    color: #00ADF0;
     transition: all .15s linear; }
     .site-footer a:hover {
       color: white; }
   .site-footer-col {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     padding-bottom: 30px;
     width: 33.33333%; }
     @media screen and (max-width: 768px) {
@@ -462,7 +462,8 @@ main {
     .site-footer-col h5 {
       margin-bottom: 15px;
       font-size: 1.1em;
-      color: #CFD8DC; }
+      color: #CFD8DC; 
+      display: inline;}
     .site-footer-col span {
       display: inline-block;
       margin-bottom: 10px;
