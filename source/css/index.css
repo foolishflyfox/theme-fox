@@ -475,7 +475,7 @@ main {
 
 .home-article-wrapper {
   display: block;
-  min-height: 330px;
+  /* min-height: 330px; */
   margin: 30px 0;
   border-radius: 10px; }
 .home-article-cover {
@@ -502,7 +502,7 @@ main {
   transition: all .3s ease;
   background: white;
   width: 100%;
-  padding: 60px 60px 40px;
+  padding: 20px 50px 20px;
   border-radius: 10px; }
   @media screen and (max-width: 768px) {
     .home-article-inner {
@@ -533,13 +533,13 @@ main {
   .home-article-title {
     font-size: 26px;
     line-height: 42px;
-    margin: 20px 0 25px; }
+    margin: 15px 0 10px; }
   .home-article-content {
     margin-top: 10px;
     font-size: 16px; }
   .home-article-read {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 0;
     color: #9E9E9E;
     font-weight: 600;
@@ -712,13 +712,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
     font-size: 15px;
     border-top: 1px solid #EEEEEE; }
     .passage-tags a {
       display: inline-flex;
-      margin: 0 15px 15px 0;
+      margin: 0 15px 0px 0;
       align-items: center;
       height: 30px;
       padding: 5px 10px;
