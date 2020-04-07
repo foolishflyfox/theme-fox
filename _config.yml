@@ -97,9 +97,11 @@ reward:
 # 请根据情况自行决定是否替换为国内CDN
 cdn: 
   leancloud: "//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"
-  mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   valine: "//unpkg.com/valine/dist/Valine.min.js"
   busuanzi: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+  # mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+  # mathjax: "//cdn.bootcss.com/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  mathjax: "/js/MathJax-2.7.7/unpacked/MathJax.js?config=TeX-MML-AM_CHTML"
   font_awesome: "/css/font-awesome.min.css"
 
 nav:
@@ -143,3 +145,5 @@ friends:
     site: https://godbmw.com/
     meta: 主题作者
     show: true
+
+  
