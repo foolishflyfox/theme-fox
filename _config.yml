@@ -100,7 +100,7 @@ cdn:
   mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   valine: "//unpkg.com/valine/dist/Valine.min.js"
   busuanzi: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-  font_awesome: "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  font_awesome: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
 nav:
   -
