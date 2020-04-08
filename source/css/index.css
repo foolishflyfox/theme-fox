@@ -600,7 +600,7 @@ main {
     .passage-article a {
       display: inline-block;
       position: relative;
-      color: #F4511E;
+      color: #48A8EE;
       font-weight: bolder; }
       .passage-article a::before {
         content: "";
