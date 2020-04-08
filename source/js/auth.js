@@ -28,10 +28,10 @@
 
   // print github and demo info
   console.log(
-    '\n%c Theme-AD v2.6.0 %c' + 
-    ' 🎉 https://github.com/dongyuanxin/theme-ad 🎉\n' + 
-    '\n%c Preview Online %c' + 
-    ' 🔍 https://godbmw.com/ 🔍  \n' , 
+    '\n%c theme-fox v2.6.0 %c' + 
+    ' 🎉 https://github.com/foolishflyfox/theme-fox.git 🎉\n' + 
+    '\n%c Main Page %c' + 
+    ' 🔍 http://foolishflyfox.xyz 🔍  \n' , 
     'color: #fadfa3; background: #030307; padding:3px 0;', '', 'color: #fadfa3; background: #030307; padding:3px 0;', ''
   );
 
