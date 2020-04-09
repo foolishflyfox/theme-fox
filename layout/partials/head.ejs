@@ -61,7 +61,7 @@
   <% } %>
 
   <% if(theme.mathjax) { %>
-    <script type="text/javascript" src="<%- theme.cdn.mathjax %>" async></script>
+    <script type="text/javascript" src="<%- url_for(theme.cdn.mathjax) %>" async></script>
   <% } %>
 
   <% if(theme.leancloud.comment) { %>
@@ -81,7 +81,7 @@
     <link rel="apple-touch-icon" href="<%- url_for(theme.favicon.touch_icon) %>">
   <% } %>
 
-  <link href="<%- theme.cdn.font_awesome %>" rel="stylesheet">
+  <link href="<%- url_for(theme.cdn.font_awesome) %>" rel="stylesheet">
 
   <%- css(['/css/index.css', '/styles/components/highlight/highlight.css']) %>
 
