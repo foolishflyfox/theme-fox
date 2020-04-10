@@ -107,7 +107,7 @@ cdn:
 nav:
   -
     name: "首页"
-    path: "/"
+    path: "../"
   -
     name: "归档"
     path: "/archives/"
