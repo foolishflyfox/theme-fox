@@ -52,3 +52,14 @@
     </div>
   <% } %>
 </div>
+
+<% if (page.total > 1){ %>
+  <nav class="page-nav" id="home-pages">
+    <%- paginator({
+          prev_text: '上一页',
+          next_text: '下一页'
+    }) %>
+  </nav>
+<% } %>
+
+
