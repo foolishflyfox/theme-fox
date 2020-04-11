@@ -618,7 +618,7 @@ main {
           left: 0;
           right: auto; }
     .passage-article code {
-      font-family: Consolas, Microsoft Jhenghei, Hiragino Sans GB, Microsoft YaHei;
+      font-family: Menlo, Monaco, Consolas, Microsoft Jhenghei, Hiragino Sans GB, Microsoft YaHei;
       background: #EEEEEE;
       color: #D84315;
       word-wrap: break-word;
